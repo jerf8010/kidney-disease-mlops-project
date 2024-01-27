@@ -18,3 +18,11 @@ A repository with and practical example of an end-to-end flops project.
 ## Requirements
 `pip install -r requirements.txt`
 `pip freeze > requirements.txt`
+
+## Git Checkout Remote Branch
+`git fetch origin`
+`git branch -a`
+`git checkout -b jerf_branch origin/jerf_branch`
+`git add .`
+`git commit -m "example"`
+`git push`
